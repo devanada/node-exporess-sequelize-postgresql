@@ -21,7 +21,7 @@ db.sequelize.sync();
 
 // simple route
 app.get("/", (req, res) => {
-  res.json({ message: "Devanada application." });
+  res.json({ message: "Tutorial application." });
 });
 
 require("./app/routes/tutorial.routes")(app);
